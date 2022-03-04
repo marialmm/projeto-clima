@@ -3,7 +3,7 @@ function confirmarGeolocNavegador(){
     if (resultado === true){
         obterGeolocNavegador();
     } else {
-        alert("Ok, nesse caso você pode inserir sua localização manualmente.");
+        alert("Ok, pode inserir sua localização manualmente.");
     }
 }
 
@@ -21,7 +21,7 @@ function obterGeolocNavegador(){
         });
         
     } else {
-        alert("O serviço de geolocalização não é suportado pelo seu navegador =( Mas tudo bem, você ainda pode inserir sua localização manualmente.");
+        alert("O serviço de geolocalização não é suportado pelo seu navegador =( Mas você ainda pode inserir sua localização manualmente.");
     }
 }
 
@@ -31,6 +31,8 @@ function obterDadosClima(lat, lon){
 
    // restante da função
 }
+
+
 
 //confirmarGeolocNavegador(); 
 // deve ser executado com onclick="confirmarGeolocNavegador()"
