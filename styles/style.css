@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 *{
@@ -145,4 +146,10 @@ body{
 
 
 
+=======
+body {
+    background-image: url(https://blog.chbagro.com.br/user-files/blog/169618.jpg);
+    background-size: cover;
+    background-position: center center;
+>>>>>>> 18b8e7a (Adiciona lista de paises)
 }
