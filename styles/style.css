@@ -1,0 +1,113 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background-color: #33BBFF;
+}
+
+.tempo{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px;
+}
+
+.tempo article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.principal h3{
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.principal h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.principal div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.principal div img{
+    width: 140px;
+    margin-right: 22px;
+}
+
+.principal h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.temperaturas{
+    margin: 20px 0px;
+}
+
+.temperaturas >p{
+    font-size: 20px;
+}
+
+.temperaturas .max-min{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 59px;
+}
+
+.temperaturas .max-min p{
+    font-size: 22px;
+}
+
+.tempo .outros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+@media screen and (min-width: 614px){
+    .tempo{
+        flex-direction: row;
+        justify-content: space-around;
+    }    
+
+    .tempo .principal{
+        width: 265px;
+    }
+
+    .tempo .temperaturas{
+        width: 200px;    
+    }
+
+    .temperaturas .max-min{
+        padding: 10px;
+    }
+
+    .tempo .outros{    
+        width: 140px;
+    }
+
+
+
+}
