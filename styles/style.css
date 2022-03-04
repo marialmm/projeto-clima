@@ -7,6 +7,7 @@
 body{
     width: 100vw;
     background-color: #33BBFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 .tempo{
@@ -16,6 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 30px 10px;
+  
 }
 
 .tempo article{
@@ -32,12 +34,24 @@ body{
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .principal h2{
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .principal div{
@@ -46,6 +60,12 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
 .principal div img{
@@ -59,7 +79,15 @@ body{
 }
 
 .temperaturas{
-    margin: 20px 0px;
+    margin: 20px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    min-width: 250px;
+    line-height: 25px;
 }
 
 .temperaturas >p{
@@ -68,7 +96,7 @@ body{
 
 .temperaturas .max-min{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 10px 59px;
@@ -83,7 +111,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 200px;
+    line-height: 25px;
 }
 
 @media screen and (min-width: 614px){

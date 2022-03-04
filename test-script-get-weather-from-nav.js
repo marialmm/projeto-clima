@@ -32,7 +32,5 @@ function obterDadosClima(lat, lon){
    // restante da função
 }
 
-
-
 //confirmarGeolocNavegador(); 
 // deve ser executado com onclick="confirmarGeolocNavegador()"
