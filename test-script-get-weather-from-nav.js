@@ -82,4 +82,5 @@ function renderizarTelaPrincipal(informacoesClima){
 
 
 confirmarGeolocNavegador(); 
+//confirmarGeolocNavegador(); 
 // deve ser executado com onclick="confirmarGeolocNavegador()"
