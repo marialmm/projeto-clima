@@ -19,7 +19,7 @@ function renderizarTelaPrincipal(informacoesClima){
         </article>
 
         <article class="outros">
-            <p class="chuva">Volume de precipitação(última hora): ${informacoesClima.chuva} mm</p>
+            <p class="visibilidade">Visibilidade: ${informacoesClima.visibilidade}%</p>
             <p class="vento">Vento: ${informacoesClima.vento} m/s</p>
             <p class="umidade">Umidade: ${informacoesClima.umidade}%</p>
         </article>

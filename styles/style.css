@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 *{
@@ -7,7 +6,9 @@
 
 body{
     width: 100vw;
-    background-color: #33BBFF;
+    background-image: url(https://blog.chbagro.com.br/user-files/blog/169618.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .tempo{
@@ -108,13 +109,4 @@ body{
     .tempo .outros{    
         width: 140px;
     }
-
-
-
-=======
-body {
-    background-image: url(https://blog.chbagro.com.br/user-files/blog/169618.jpg);
-    background-size: cover;
-    background-position: center center;
->>>>>>> 18b8e7a (Adiciona lista de paises)
 }
